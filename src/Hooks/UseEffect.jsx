@@ -14,7 +14,7 @@ const UseEffect = () => {
 
   return (
     <div className=' p-4 bg-gray-300 flex flex-col gap-3'>
-
+ 
         <div className="">
 
             <h1 className=' text-xl'>
