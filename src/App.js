@@ -1,4 +1,5 @@
 import "./App.css";
+import UseCallback from "./Hooks/UseCallback/UseCallback";
 import UseEffect from "./Hooks/UseEffect";
 import UseMemo from "./Hooks/UseMemo";
 import UseRef from "./Hooks/UseRef";
@@ -15,6 +16,8 @@ function App() {
     <UseRef></UseRef>
 
     <UseMemo></UseMemo>
+
+    <UseCallback></UseCallback>
 
    </div>
   );
