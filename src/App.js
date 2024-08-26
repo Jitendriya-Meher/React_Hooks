@@ -1,4 +1,5 @@
 import "./App.css";
+import CustomHook from "./Hooks/CustomHook/CustomHook";
 import UseCallback from "./Hooks/UseCallback/UseCallback";
 import UseContext from "./Hooks/UseContext/UseContext";
 import UseEffect from "./Hooks/UseEffect";
@@ -25,6 +26,8 @@ function App() {
     <UseContext></UseContext>
 
     <UseReducer></UseReducer>
+
+    <CustomHook></CustomHook>
 
     <UseLayoutEffect></UseLayoutEffect>
 

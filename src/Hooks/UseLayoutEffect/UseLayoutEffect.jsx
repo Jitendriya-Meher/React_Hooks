@@ -21,7 +21,7 @@ const UseLayoutEffect = () => {
             Array(4000).fill("").map((item,index) => (
                 <li key={index}>
                     {
-                        Math.pow(Math.random(),10)
+                        Math.pow(Math.random(),10 )
                     }
                 </li>
             ))
